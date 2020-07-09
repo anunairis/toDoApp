@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+width: 60%;
+margin: auto;
+padding: 10rem 0;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  border: 2px solid yellow;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+.btn:hover {
+background-color: rgba(0, 0, 0, 0.75);
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
